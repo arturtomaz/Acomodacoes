@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "nome": "Apartamento Beira-Mar",
+      "descricao": "Desfrute do som das ondas e do visual paradisíaco neste apartamento aconchegante de frente para a praia. Com uma varanda espaçosa, é o lugar perfeito para relaxar e apreciar o pôr do sol sobre o mar. A localização privilegiada permite fácil acesso a restaurantes, bares e atrações locais.",
+      "imagem-capa": "vista-mar.jpeg",
+      "imagens": [
+        "sala-de-estar.avif",
+        "Cozinha.avif",
+        "quarto_solteiros.jpg",
+        "banheiro.jpeg"
+      ],
+      "preco_noite": 350,
+      "taxa_servico": 35,
+      "localizacao": { "cidade": "Florianópolis", "estado": "SC" },
+      "nome-anfitriao": "Carlos Souza",
+      "hospedes": 4,
+      "estrelas": 4.7
+    },
+    {
+      "id": 2,
+      "nome": "Chalé na Serra",
+      "descricao": "Sinta-se abraçado pelo clima frio e acolhedor da serra neste charmoso chalé rústico. Equipado com lareira e rodeado por uma paisagem encantadora, é ideal para momentos românticos ou para relaxar em família. A poucos minutos do centro, você encontra ótimos cafés e restaurantes tradicionais.",
+      "imagem-capa": "casa-de-fora.avif",
+      "imagens": [
+        "vista-da-casa.avif",
+        "sala-de-estar.avif",
+        "quarto.avif",
+        "casa-de-cima.avif"
+      ],
+      "preco_noite": 500,
+      "taxa_servico": 50,
+      "localizacao": { "cidade": "Campos do Jordão", "estado": "SP" },
+      "nome-anfitriao": "Maria Oliveira",
+      "hospedes": 6,
+      "estrelas": 4.5
+    },
+    {
+      "id": 3,
+      "nome": "Flat Executivo",
+      "descricao": "Moderno e sofisticado, este flat é perfeito para viajantes a negócios ou casais que buscam praticidade no coração da cidade. Com design contemporâneo e uma estrutura completa, oferece Wi-Fi de alta velocidade e fácil acesso a escritórios, centros comerciais e restaurantes renomados.",
+      "imagem-capa": "cama-de-frente.jpg",
+      "imagens": [
+        "escrivaninha.jpg",
+        "mesa-e-armario.jpg",
+        "cama-de-lado.jpg",
+        "porta.jpg"
+      ],
+      "preco_noite": 250,
+      "taxa_servico": 30,
+      "localizacao": { "cidade": "São Paulo", "estado": "SP" },
+      "nome-anfitriao": "Felipe Martins",
+      "hospedes": 2,
+      "estrelas": 4.3
+    },
+    {
+      "id": 4,
+      "nome": "Casa de Praia",
+      "descricao": "Com um espaço amplo e arejado, esta casa é perfeita para quem deseja aproveitar o melhor do litoral com a família ou amigos. Possui uma área externa com churrasqueira e fácil acesso às águas cristalinas da praia. Localizada em uma região tranquila, proporciona conforto e lazer na medida certa.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 400,
+      "taxa_servico": 45,
+      "localizacao": { "cidade": "Porto de Galinhas", "estado": "PE" },
+      "nome-anfitriao": "Júlia Pereira",
+      "hospedes": 8,
+      "estrelas": 4.9
+    },
+    {
+      "id": 5,
+      "nome": "Cabana na Floresta",
+      "descricao": "Escondida entre as árvores, esta cabana de madeira é o refúgio perfeito para quem busca tranquilidade e contato com a natureza. Com um deck charmoso e vista para a mata, proporciona uma experiência única de descanso. Ideal para quem deseja se desconectar do agito e recarregar as energias.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 450,
+      "taxa_servico": 50,
+      "localizacao": { "cidade": "Gramado", "estado": "RS" },
+      "nome-anfitriao": "Roberto Lima",
+      "hospedes": 5,
+      "estrelas": 4.8
+    },
+    {
+      "id": 6,
+      "nome": "Suíte Luxo Hotel",
+      "descricao": "Uma experiência exclusiva em um dos hotéis mais renomados da cidade, oferecendo conforto e sofisticação. Com uma vista panorâmica incrível para o mar, esta suíte proporciona momentos inesquecíveis. Os hóspedes podem desfrutar de serviços premium, como spa, piscina e café da manhã gourmet.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 700,
+      "taxa_servico": 80,
+      "localizacao": { "cidade": "Rio de Janeiro", "estado": "RJ" },
+      "nome-anfitriao": "Fernanda Costa",
+      "hospedes": 3,
+      "estrelas": 4.6
+    },
+    {
+      "id": 7,
+      "nome": "Loft Moderno",
+      "descricao": "Com design arrojado e acabamentos sofisticados, este loft é a escolha perfeita para quem busca conforto e estilo. Localizado em uma área vibrante, oferece fácil acesso a bares, restaurantes e pontos turísticos. A decoração moderna e os espaços integrados garantem uma estadia única e agradável.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 320,
+      "taxa_servico": 40,
+      "localizacao": { "cidade": "Curitiba", "estado": "PR" },
+      "nome-anfitriao": "Lucas Almeida",
+      "hospedes": 2,
+      "estrelas": 4.2
+    },
+    {
+      "id": 8,
+      "nome": "Pousada Familiar",
+      "descricao": "Com um ambiente acolhedor e estrutura charmosa, esta pousada é perfeita para quem deseja momentos de descanso com a família. Rodeada por belas paisagens e com atendimento personalizado, oferece uma experiência aconchegante. A área comum inclui jardim, salão de jogos e café da manhã caseiro.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 180,
+      "taxa_servico": 20,
+      "localizacao": { "cidade": "Gramado", "estado": "RS" },
+      "nome-anfitriao": "Ana Clara Rocha",
+      "hospedes": 6,
+      "estrelas": 4.4
+    },
+    {
+      "id": 9,
+      "nome": "Casa Colonial",
+      "descricao": "Situada em uma rua charmosa do centro histórico, esta casa colonial combina tradição e elegância. Seus móveis antigos e arquitetura preservada transportam os hóspedes a outra época, sem abrir mão do conforto moderno. É o local ideal para quem aprecia história e deseja explorar a cultura local.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 380,
+      "taxa_servico": 45,
+      "localizacao": { "cidade": "Ouro Preto", "estado": "MG" },
+      "nome-anfitriao": "Marcos Silva",
+      "hospedes": 4,
+      "estrelas": 4.7
+    },
+    {
+      "id": 10,
+      "nome": "Apartamento Compacto",
+      "descricao": "Funcional e bem planejado, este apartamento compacto é perfeito para estadias curtas e práticas. Localizado em uma área movimentada, oferece fácil acesso a mercados, restaurantes e transporte público. Seu ambiente moderno e aconchegante garante uma experiência confortável e conveniente.",
+      "imagem-capa": "casa-de-fora.jpg",
+      "imagens": [
+        "sala-de-estar.jpg",
+        "quarto.jpg",
+        "banheiro.jpg",
+        "Cozinha.jpg"
+      ],
+      "preco_noite": 220,
+      "taxa_servico": 25,
+      "localizacao": { "cidade": "Florianópolis", "estado": "SC" },
+      "nome-anfitriao": "Beatriz Santos",
+      "hospedes": 3,
+      "estrelas": 4.5
+    }
+  ]
+}
