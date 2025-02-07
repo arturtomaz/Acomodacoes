@@ -19,7 +19,7 @@ A aplicação exibe acomodações disponíveis, permitindo visualizar detalhes a
     docker-compose up --build
 3. O backend estará disponível em http://localhost:8000
 
-4. O frontend estará disponível em http://localhost:3000
+4. O frontend estará disponível em http://localhost
 
 ## **⚙️ Como rodar o projeto sem Docker**
 
