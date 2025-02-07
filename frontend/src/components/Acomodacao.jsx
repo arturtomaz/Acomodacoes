@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import api from "../services/api";
 
 function Acomodacao({ acomodacao }) {
   const navigate = useNavigate();
