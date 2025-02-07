@@ -78,7 +78,9 @@ function AcomodacaoDetails() {
                   }}
                 ></div>
                 <img
-                  src={`http://localhost:8000/images/${acomodacao.id}/${imagemSelecionada}`}
+                  src={`${
+                    import.meta.env.VITE_API_URL || "http://localhost:8000"
+                  }/images/${acomodacao.id}/${imagemSelecionada}`}
                   alt="Imagem ampliada"
                   className="relative max-w-[90%] max-h-[90%] rounded-[20px] z-50"
                 />
