@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import api from "../services/api";
 
 function Acomodacao({ acomodacao }) {
   const navigate = useNavigate();
@@ -61,7 +62,7 @@ function Acomodacao({ acomodacao }) {
         >
           <img
             className="absolute top-0 left-0 w-full h-full object-cover rounded-[30px] border-transparent"
-            src={`http://localhost:8000/images/${acomodacao.id}/${acomodacao["imagem-capa"]}`}
+            src={`${import.meta.env.VITE_API_URL || "http://localhost:8000"}/images/${acomodacao.id}/${acomodacao["imagem-capa"]}`}
             alt=""
           />
         </div>

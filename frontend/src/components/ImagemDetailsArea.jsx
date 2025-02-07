@@ -3,7 +3,7 @@ function ImagemDetailsArea({ acomodacao, endereco, setImagemSelecionada}) {
     <img
       onClick={() => setImagemSelecionada(endereco)}
       className="aspect-square object-cover rounded-[20%] cursor-pointer hover:brightness-75"
-      src={`http://localhost:8000/images/${acomodacao.id}/${endereco}`}
+      src={`${import.meta.env.VITE_API_URL || "http://localhost:8000"}/images/${acomodacao.id}/${endereco}`}
       alt=""
     />
   );

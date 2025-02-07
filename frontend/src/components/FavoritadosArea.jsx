@@ -75,7 +75,7 @@ function FavoritadosArea() {
                   >
                     <img
                       className="absolute top-0 left-0 w-full h-full object-cover rounded-[30px] border-transparent"
-                      src={`http://localhost:8000/images/${fav.id}/${fav["imagem-capa"]}`}
+                      src={`${import.meta.env.VITE_API_URL || "http://localhost:8000"}/images/${fav.id}/${fav["imagem-capa"]}`}
                       alt=""
                     />
                   </div>
